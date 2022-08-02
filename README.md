@@ -43,6 +43,7 @@ sample.pyを起動すると、1秒周期でDI0～DI3の4つの接点の入力を
 終了する場合は「Ctrl」＋「C」を押下してください。  
 
 ```
+$ cd ADRSINS-RaspberryPi-insulation
 $ python3 sample.py
 DI0: 1 , DI1: 1 , DI2: 1 , DI3: 1
 DI0: 1 , DI1: 1 , DI2: 1 , DI3: 1

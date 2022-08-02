@@ -31,7 +31,7 @@ $ sudo pip install RPi.GPIO
 
 ```
 
-## 場所の移動(各自お好みで)
+## 保存場所へ移動(各自お好みで)
 ```
 $ cd Desktop 
 ```
@@ -45,9 +45,9 @@ $ git clone https://github.com/bit-trade-one/ADRSINS-RaspberryPi-insulation.git
 
 この後GtiHubのユーザ名・個人用アクセストークンを求められる事があります。  
 その場合は表示に従ってください。  
-[Githubドキュメント_個人アクセストークンを使用する](https://docs.github.com/ja/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+[Githubドキュメント_個人アクセストークンを使用する](https://docs.github.com/ja/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)  
 
-## 場所の移動
+## クローンした場所へ移動
 ```
 $ cd ADRSINS-RaspberryPi-insulation
 $ cd Sample

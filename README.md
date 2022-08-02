@@ -1,4 +1,4 @@
-# ADRSINS-RaspberryPi_insulation_input_HAT
+# ADRSINS-RaspberryPi-insulation
 ### ラズベリーパイ絶縁入力HAT
 ![タイトル画像のURLを右のカッコに]()
 
@@ -6,7 +6,7 @@
 
 ## [HPリンク](http://bit-trade-one.co.jp/) 
 
-### [↓↓↓使用方法は下記にあります↓↓↓](#サンプルプログラムのインストールについて)  
+### [サンプルプログラムの実行方法](#サンプルプログラムの実行方法)  
 
 ### [サンプルコード](https://github.com/bit-trade-one/-ADXXXXX-Template/raw/master/Sample)  
 
@@ -18,7 +18,7 @@
 
 ---
 
-# サンプルプログラムのインストールについて
+# サンプルプログラムの実行方法
 
 
 ## ライブラリ関連のインストール
@@ -34,7 +34,7 @@ $ sudo pip install RPi.GPIO
 ## サンプルソフトをダウンロード
 
 ```
-$ git clone -
+$ git clone https://github.com/bit-trade-one/ADRSINS-RaspberryPi-insulation.git
 ```
 
 ## 使用方法

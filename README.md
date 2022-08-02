@@ -6,6 +6,8 @@
 
 ## [HPリンク](http://bit-trade-one.co.jp/) 
 
+### [↓↓↓使用方法は下記にあります↓↓↓](#サンプルプログラムのインストールについて)  
+
 ### [サンプルコード](https://github.com/bit-trade-one/-ADXXXXX-Template/raw/master/Sample)  
 
 ### [Q&A](FAQ.md)
@@ -13,6 +15,8 @@
 ### [基板図](https://github.com/bit-trade-one/-ADXXXXX-Template/blob/master/Dimensions/-ADXXXXX-Template-Dimensions.pdf)
 
 ### [回路図](https://github.com/bit-trade-one/-ADXXXXX-Templateo/blob/master/Schematics/-ADXXXXX-Template-Schematics.pdf)
+
+---
 
 # サンプルプログラムのインストールについて
 
@@ -23,14 +27,20 @@
 $ sudo apt-get update
 $ sudo apt-get install -y python-dev
 $ sudo apt-get install -y python-pip
-sudo pip install RPi.GPIO
+$ sudo pip install RPi.GPIO
 
 ```
 
+## サンプルソフトをダウンロード
+
+```
+$ git clone -
+```
+
 ## 使用方法
-sample.pyを起動すると、1秒周期でDI0～DI3の4つの接点の入力を1秒周期で実施します。
-接点がHighレベル（5V～24V)の場合、GPIOの値は'0'になり、Lowレベルの場合は'1'となります。
-終了する場合は「Ctrl」＋「C」を押下してください。
+sample.pyを起動すると、1秒周期でDI0～DI3の4つの接点の入力を1秒周期で実施します。  
+接点がHighレベル（5V～24V)の場合、GPIOの値は'0'になり、Lowレベルの場合は'1'となります。  
+終了する場合は「Ctrl」＋「C」を押下してください。  
 
 ```
 $ python3 sample.py

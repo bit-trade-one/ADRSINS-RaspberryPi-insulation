@@ -33,7 +33,7 @@ $ cd Desktop
 ```
 
 
-## サンプルソフトをダウンロード
+## 本リポジトリをクローン
 
 ```
 $ git clone https://github.com/bit-trade-one/ADRSINS-RaspberryPi-insulation.git

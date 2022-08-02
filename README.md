@@ -31,10 +31,26 @@ $ sudo pip install RPi.GPIO
 
 ```
 
+## 場所の移動(各自お好みで)
+```
+$ cd Desktop 
+```
+
+
 ## サンプルソフトをダウンロード
 
 ```
 $ git clone https://github.com/bit-trade-one/ADRSINS-RaspberryPi-insulation.git
+```
+
+この後GtiHubのユーザ名・個人用アクセストークンを求められる事があります。  
+その場合は表示に従ってください。  
+[Githubドキュメント_個人アクセストークンを使用する](https://docs.github.com/ja/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+
+## 場所の移動
+```
+$ cd ADRSINS-RaspberryPi-insulation
+$ cd Sample
 ```
 
 ## 使用方法
@@ -43,7 +59,6 @@ sample.pyを起動すると、1秒周期でDI0～DI3の4つの接点の入力を
 終了する場合は「Ctrl」＋「C」を押下してください。  
 
 ```
-$ cd ADRSINS-RaspberryPi-insulation
 $ python3 sample.py
 DI0: 1 , DI1: 1 , DI2: 1 , DI3: 1
 DI0: 1 , DI1: 1 , DI2: 1 , DI3: 1

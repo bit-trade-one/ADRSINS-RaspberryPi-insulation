@@ -28,7 +28,6 @@ $ sudo apt-get update
 $ sudo apt-get install -y python-dev
 $ sudo apt-get install -y python-pip
 $ sudo pip install RPi.GPIO
-
 ```
 
 ## 保存場所へ移動(各自お好みで)

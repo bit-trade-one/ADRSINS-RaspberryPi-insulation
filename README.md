@@ -1,73 +1,58 @@
-# -ADXXXXX-Template
-
-## ここに見出し
-
+# ADRSINS-RaspberryPi_insulation_input_HAT
+### ラズベリーパイ絶縁入力HAT
 ![タイトル画像のURLを右のカッコに]()
 
-「●●●●●」はほにゃららするためのなんちゃらボード。  
-この製品を使用する事でもにょもにょがぺけぺけできる。  
-(ここの説明は3行未満で良い)
-
-<!--
-改行する場合、文末に半角スペース2個を置く
-
-リンクの貼り方
-[リンクになる文章](URL)
-exp.
-[Google](https://www.google.co.jp/)
-
-画像の貼り方
-![画像が読めない時に表示されるテキスト](画像のURL)
-exp.
-![bit-trade-one](https://bit-trade-one.co.jp/wp/wp-content/uploads/tcd-w/logo.png)
-※先頭の"!"を忘れないこと
-
-
-見出しの付け方
-
-# 見出し1
-
-## 見出し1-1
-
-###　見出し1-2
-
-# 見出し2
-
-"#"を増やすと下位の見出しになる
-
-以下のURL内の"-ADXXXXX-Template"をリポジトリ名/ファイル名に変更 
-
-製品によって無い情報(ライブラリへのリンクなど)は削除すること
-
-ソフトの使い方、ライブラリの使い方などがWordなどである場合は、
-各情報フォルダにMarkdown形式に起こし"Readme.md"という名前で保存すること
--->
+ラズベリーパイに5~24Vの信号を入力できるADRSINSのページです。  
 
 ## [HPリンク](http://bit-trade-one.co.jp/) 
 
-## [マニュアル](https://github.com/bit-trade-one/-ADXXXXX-Template/raw/master/Manual)
-
-## [アプリケーションソフトウェア](https://github.com/bit-trade-one/-ADXXXXX-Template/raw/master/App/)  
-
-## [ファームウェア](https://github.com/bit-trade-one/-ADXXXXX-Template/raw/master/Firmware/)
-
-## [Q&A](FAQ.md)
-
-### [ライブラリ](https://github.com/bit-trade-one/-ADXXXXX-Template/raw/master/Library)  
-
 ### [サンプルコード](https://github.com/bit-trade-one/-ADXXXXX-Template/raw/master/Sample)  
 
-### [アプリケーションソース](https://github.com/bit-trade-one/-ADXXXXX-Template/raw/master/App_source/)  
-
-### [ファームウェアソース](https://github.com/bit-trade-one/-ADXXXXX-Template/raw/master/Firmware_source/)
+### [Q&A](FAQ.md)
 
 ### [基板図](https://github.com/bit-trade-one/-ADXXXXX-Template/blob/master/Dimensions/-ADXXXXX-Template-Dimensions.pdf)
 
 ### [回路図](https://github.com/bit-trade-one/-ADXXXXX-Templateo/blob/master/Schematics/-ADXXXXX-Template-Schematics.pdf)
 
-### [部品表](https://github.com/bit-trade-one-ADXXXXX-Templateo/blob/master/Partslist/-ADXXXXX-Template-Partslist.md)
+# サンプルプログラムのインストールについて
 
 
+## ライブラリ関連のインストール
+
+```
+$ sudo apt-get update
+$ sudo apt-get install -y python-dev
+$ sudo apt-get install -y python-pip
+sudo pip install RPi.GPIO
+
+```
+
+## 使用方法
+sample.pyを起動すると、1秒周期でDI0～DI3の4つの接点の入力を1秒周期で実施します。
+接点がHighレベル（5V～24V)の場合、GPIOの値は'0'になり、Lowレベルの場合は'1'となります。
+終了する場合は「Ctrl」＋「C」を押下してください。
+
+```
+$ python3 sample.py
+DI0: 1 , DI1: 1 , DI2: 1 , DI3: 1
+DI0: 1 , DI1: 1 , DI2: 1 , DI3: 1
+DI0: 1 , DI1: 1 , DI2: 1 , DI3: 1
+DI0: 0 , DI1: 1 , DI2: 1 , DI3: 1
+DI0: 1 , DI1: 1 , DI2: 1 , DI3: 1
+DI0: 1 , DI1: 0 , DI2: 1 , DI3: 1
+DI0: 1 , DI1: 0 , DI2: 1 , DI3: 1
+DI0: 1 , DI1: 1 , DI2: 0 , DI3: 1
+DI0: 1 , DI1: 1 , DI2: 0 , DI3: 1
+DI0: 1 , DI1: 1 , DI2: 1 , DI3: 1
+DI0: 1 , DI1: 1 , DI2: 1 , DI3: 0
+DI0: 1 , DI1: 1 , DI2: 1 , DI3: 1
+DI0: 1 , DI1: 1 , DI2: 1 , DI3: 1
+DI0: 1 , DI1: 1 , DI2: 1 , DI3: 1
+DI0: 1 , DI1: 1 , DI2: 1 , DI3: 1
+DI0: 1 , DI1: 1 , DI2: 1 , DI3: 1
+```
+  
+<!--
 ## 作例
 
 [BTO公式]()  
@@ -92,3 +77,4 @@ exp.
     【保証期間】 1年間
     【付属品】保証書 1部
     【生産国】Made in Japan
+-->

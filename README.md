@@ -11,9 +11,9 @@
 ### [本体ピンヘッダの設定について](#本体ピンヘッダの設定について-1)
 ### [Q&A](FAQ.md)
 
-#### [基板図](https://github.com/bit-trade-one/-ADXXXXX-Template/blob/master/Dimensions/-ADXXXXX-Template-Dimensions.pdf)
+#### [回路図](https://github.com/bit-trade-one/ADRSINS-RaspberryPi-insulation/blob/master/Schematics/ADRSINS_SchematicsV0.pdf)
 
-#### [回路図](https://github.com/bit-trade-one/-ADXXXXX-Templateo/blob/master/Schematics/-ADXXXXX-Template-Schematics.pdf)
+#### [基板図](https://github.com/bit-trade-one/ADRSINS-RaspberryPi-insulation/blob/master/Dimensions/ADRSINS_DimensionsV0.pdf)
 
 ---
 

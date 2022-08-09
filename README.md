@@ -6,7 +6,7 @@
 
 ## [HPリンク](http://bit-trade-one.co.jp/) 
 
-### [サンプルプログラムの実行方法](#サンプルプログラムの実行方法)
+### [サンプルプログラムの実行方法](#サンプルプログラムの実行方法-1)
 #### [サンプルコード](https://github.com/bit-trade-one/-ADXXXXX-Template/raw/master/Sample)  
 ### [本体ピンヘッダの設定について](#ピンヘッダ-ブリーダ抵抗有無の設定について)
 ### [Q&A](FAQ.md)

@@ -7,7 +7,7 @@
 ## [製品HPリンク](http://bit-trade-one.co.jp/) 
 
 ### [サンプルプログラムの実行方法](#サンプルプログラムの実行方法-1)
-#### [サンプルコード](https://github.com/bit-trade-one/-ADXXXXX-Template/raw/master/Sample)  
+#### [サンプルコード](https://github.com/bit-trade-one/ADRSINS-RaspberryPi-insulation/blob/master/sample/sample.py)  
 ### [本体ピンヘッダの設定について](#本体ピンヘッダの設定について-1)
 ### [Q&A](FAQ.md)
 

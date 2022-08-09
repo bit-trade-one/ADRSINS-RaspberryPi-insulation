@@ -97,4 +97,4 @@ DI0: 1 , DI1: 1 , DI2: 1 , DI3: 1
   
 ADRSINSのブリーダ抵抗を有効にすると、5Vの電源の場合12mAを流すことが出来るので、   
 タイマ接点からの信号を問題なく受け取ることが出来ます。  
-![image](https://user-images.githubusercontent.com/85532743/183627493-f17ac8ae-f022-444f-bd71-63e82a49f898.png)
+![image](https://user-images.githubusercontent.com/85532743/183629607-2aeb35b5-9fd0-400a-bd8b-93b3fec605ab.png)

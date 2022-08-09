@@ -7,13 +7,13 @@
 ## [HPリンク](http://bit-trade-one.co.jp/) 
 
 ### [サンプルプログラムの実行方法](#サンプルプログラムの実行方法)
-### [サンプルコード](https://github.com/bit-trade-one/-ADXXXXX-Template/raw/master/Sample)  
-
+#### [サンプルコード](https://github.com/bit-trade-one/-ADXXXXX-Template/raw/master/Sample)  
+### [本体ピンヘッダの設定について](#ピンヘッダ-ブリーダ抵抗有無の設定について)
 ### [Q&A](FAQ.md)
 
-### [基板図](https://github.com/bit-trade-one/-ADXXXXX-Template/blob/master/Dimensions/-ADXXXXX-Template-Dimensions.pdf)
+#### [基板図](https://github.com/bit-trade-one/-ADXXXXX-Template/blob/master/Dimensions/-ADXXXXX-Template-Dimensions.pdf)
 
-### [回路図](https://github.com/bit-trade-one/-ADXXXXX-Templateo/blob/master/Schematics/-ADXXXXX-Template-Schematics.pdf)
+#### [回路図](https://github.com/bit-trade-one/-ADXXXXX-Templateo/blob/master/Schematics/-ADXXXXX-Template-Schematics.pdf)
 
 ---
 
@@ -76,29 +76,29 @@ DI0: 1 , DI1: 1 , DI2: 1 , DI3: 1
 DI0: 1 , DI1: 1 , DI2: 1 , DI3: 1
 ```
   
-<!--
-## 作例
+---
+# ピンヘッダ ブリーダ抵抗有無の設定について  
+ピンヘッダを1側に接続すると、ブリーダ抵抗が有効になり、  
+ピンヘッダを0側に接続すると、ブリーダ抵抗が無効になります。
+![image](https://user-images.githubusercontent.com/85532743/183619286-286e93cf-ce0b-4bc1-b537-99b3e18852fe.png)
 
-[BTO公式]()  
-[Twitter作例1]()  
-[Twitter作例2]()  
-[ブログ作例1]()  
-[ブログ作例1]()  
 
-## 雑誌掲載情報
+ブリーダ抵抗とは電流を多く流すために回路に並列に接続された抵抗です。  
+微小負荷接点対策のためなどに挿入されます。  
+![image](https://user-images.githubusercontent.com/85532743/183622705-1f38d537-4aed-4358-9b29-71b9f893b3b6.png)
+機器の接点が劣化し酸化膜が生成され小信号が伝達できなくなることを防ぐために  
+接点部にメッキなどを施した製品は微小負荷接点対策品などと呼ばれます。  
+  
+接点に施しが無い、微小負荷接点対策がされていない機器は要求される最小負荷が大きく、  
+接点に対してある程度大きな電流を流す必要があります。  
+  
+例えば富士電機製スーパータイマ MS4Sシリーズは、  
+最小適用負荷が	DC5V10mAとなっています。  
+この接点にはDC5V10mA以上の電圧・電流を流さないと、  
+タイマ接点の酸化皮膜などの絶縁が破壊できず、タイマ接点を閉じても電気信号が伝わらない可能性があります。  
+  
+ADRSINSのブリーダ抵抗を有効にすると、5Vの電源の場合12mAを流すことが出来るので、   
+タイマ接点からの信号を問題なく受け取ることが出来ます。  
 
-[ラズパイマガジンXX年Y月号]()  
-[Pc Watch]()
 
-## 製品仕様
-    【対応OS】Windows7以降
-    【サイズ】W16×D20×H5mm
-    【重量】約1g
-    【入力点数】12(デジタル)
-    【コネクタ】USBマイクロB
-    【電源】5V (USBマイクロB)
-    【使用温度】0 ～ 40℃（結露なきこと）
-    【保証期間】 1年間
-    【付属品】保証書 1部
-    【生産国】Made in Japan
--->
+

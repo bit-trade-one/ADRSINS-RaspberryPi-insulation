@@ -8,7 +8,7 @@
 
 ### [サンプルプログラムの実行方法](#サンプルプログラムの実行方法-1)
 #### [サンプルコード](https://github.com/bit-trade-one/-ADXXXXX-Template/raw/master/Sample)  
-### [本体ピンヘッダの設定について](#ピンヘッダ-ブリーダ抵抗有無の設定について)
+### [本体ピンヘッダの設定について](#本体ピンヘッダの設定について-1)
 ### [Q&A](FAQ.md)
 
 #### [基板図](https://github.com/bit-trade-one/-ADXXXXX-Template/blob/master/Dimensions/-ADXXXXX-Template-Dimensions.pdf)
@@ -77,7 +77,7 @@ DI0: 1 , DI1: 1 , DI2: 1 , DI3: 1
 ```
   
 ---
-# ピンヘッダ ブリーダ抵抗有無の設定について  
+# 本体ピンヘッダの設定について 
 ピンヘッダを1側に接続すると、ブリーダ抵抗が有効になり、  
 ピンヘッダを0側に接続すると、ブリーダ抵抗が無効になります。
 ![image](https://user-images.githubusercontent.com/85532743/183619286-286e93cf-ce0b-4bc1-b537-99b3e18852fe.png)

@@ -20,7 +20,7 @@
 
 # 配線方法
 
-INの側に入力  
+INの側が入力  
 OUTの側が出力になるように線をユーロブロックに接続ください。
 
 ![image](https://user-images.githubusercontent.com/85532743/185038917-152967ac-f973-4599-a638-1b6d8dfdfc89.png)

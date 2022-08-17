@@ -1,28 +1,18 @@
-# ADXXXXX-Template よくある質問
+# ADRSINS よくある質問
 
 ---
 
-## Q.XXXとはなんですか？
+## Q.入力部と制御回路は絶縁されていますか？
 
-### A.YYYです。結論がここにドカンと　見出し\#行で上下1行空けるのはMarkdownの書式
-
-Lorem ipsum dolor sit amet, consectetur  
-返答の詳細がバーっと  
-adipiscing elit, sed do eiusmod tempor incididunt ut  
+### A.はい 絶縁されています
+絶縁耐圧等の公開はしておりません。
 
 ---
 
-## Q.XXXをZZZ出来ますか？  
+## Q.インジケータランプ・テスト用接点スイッチは入力部と絶縁されていますか。
 
-### A.はい、可能です。  
+### A.はい 絶縁されています
 
-labore et dolore magna aliqua. Ut enim  
-ad minim veniam, quis nostrud exercitation  
+詳しくは[回路図](https://github.com/bit-trade-one/ADRSINS-RaspberryPi-insulation/blob/master/Schematics/ADRSINS_SchematicsV0.pdf)をご確認ください。  
 
 ---
-
-## Q.YYYでなくWWWとして使いたいです
-
-### A.申し訳ありませんが対応しておりません。  
-
-ullamco laboris nisi ut aliquip ex ea commodo consequat.   

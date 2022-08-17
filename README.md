@@ -6,6 +6,7 @@
 
 ## [製品HPリンク](http://bit-trade-one.co.jp/) 
 
+### [配線方法](#配線方法-1)
 ### [サンプルプログラムの実行方法](#サンプルプログラムの実行方法-1)
 #### [サンプルコード](https://github.com/bit-trade-one/ADRSINS-RaspberryPi-insulation/blob/master/sample/sample.py)  
 ### [本体ピンヘッダの設定について](#本体ピンヘッダの設定について-1)
@@ -14,6 +15,15 @@
 #### [回路図](https://github.com/bit-trade-one/ADRSINS-RaspberryPi-insulation/blob/master/Schematics/ADRSINS_SchematicsV0.pdf)
 
 #### [基板図](https://github.com/bit-trade-one/ADRSINS-RaspberryPi-insulation/blob/master/Dimensions/ADRSINS_DimensionsV0.pdf)
+
+---
+
+# 配線方法
+
+INの側に入力  
+OUTの側が出力になるように線をユーロブロックに接続ください。
+
+![image](https://user-images.githubusercontent.com/85532743/185038917-152967ac-f973-4599-a638-1b6d8dfdfc89.png)
 
 ---
 

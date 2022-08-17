@@ -16,3 +16,10 @@
 詳しくは[回路図](https://github.com/bit-trade-one/ADRSINS-RaspberryPi-insulation/blob/master/Schematics/ADRSINS_SchematicsV0.pdf)をご確認ください。  
 
 ---
+
+## Q.確認用LEDが光っているけど信号入力されません
+
+### A.入力電圧が低い可能性がございます。
+
+LEDの特性により、入力に値しない低めの電圧が入力されたときでも確認用LEDが光ることがございます。  
+5V以上の信号を入力ください。

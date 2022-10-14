@@ -1,6 +1,6 @@
 # ADRSINS-RaspberryPi-insulation
-### ラズベリーパイ絶縁入力HAT
-![タイトル画像のURLを右のカッコに]()
+### ラズベリーパイ専用絶縁入力拡張ボード
+<img src="https://bit-trade-one.co.jp/wp/wp-content/uploads/2022/10/ADRSINS-SUB-TR70.png" width="720px">
 
 ラズベリーパイに5~24Vの信号を絶縁して入力できるADRSINSのページです。  
 

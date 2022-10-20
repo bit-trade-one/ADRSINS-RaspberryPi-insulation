@@ -4,7 +4,7 @@
 
 
 
-ラズベリーパイに5~24Vの信号を絶縁して入力できるADRSINSのページです。  
+ラズベリーパイに5~24Vの信号を絶縁して入力できるADRSINSのサポートページです。  
 
 ## [製品HPリンク](https://bit-trade-one.co.jp/adrsins/) 
 

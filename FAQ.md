@@ -36,4 +36,4 @@ LEDの特性により、入力に値しない低めの電圧が入力された�
 
 ### A.はい 各接点個別コモンです。  
   
-詳しくは[回路図](https://github.com/bit-trade-one/ADRSINS-RaspberryPi-insulation/tree/master/Schematics)をご覧ください。
+詳しくは[回路図](https://github.com/bit-trade-one/ADRSINS-RaspberryPi-insulation/blob/master/Schematics/ADRSINS_SchematicsV0.pdf)をご覧ください。

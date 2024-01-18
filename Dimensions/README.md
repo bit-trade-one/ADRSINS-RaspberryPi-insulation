@@ -1,6 +1,6 @@
 # filelist
 
-- ADRSINS_DimensionsV0.pdf  
+- ADRSINS_DimensionsVx.pdf  
 アートワークです  
 
 - README.md  

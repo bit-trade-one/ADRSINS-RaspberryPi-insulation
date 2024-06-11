@@ -50,7 +50,7 @@ $ sudo apt-get install -y python-dev
 $ sudo apt-get install -y python-pip
 $ sudo pip install RPi.GPIO
 ```
-
+**Rasyperry Pi 5では、RPi.GPIOは利用できなくなりました**
 ## 保存場所へ移動(各自お好みで)
 ```
 $ cd Desktop 
@@ -78,6 +78,8 @@ sample.pyを起動すると、1秒周期でDI0～DI3の4つの接点の入力を
 接点がHighレベル（5V～24V)の場合、GPIOの値は'0'になり、Lowレベルの場合は'1'となります。  
 ユーロブロックからの接点入力や入力確認スイッチを用いて動作チェックを行ってください。  
 終了する場合は「Ctrl」＋「C」を押下してください。  
+
+**Raspberry Pi 5の場合は、gpiozeroを使用したsample2.pyを実行してください。**
 
 ```
 $ python3 sample.py

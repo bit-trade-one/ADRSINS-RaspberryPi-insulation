@@ -36,8 +36,7 @@ OUTの側が出力になるように線をユーロブロックに接続くだ�
 
 ![image](https://github.com/bit-trade-one/ADRSINS-RaspberryPi-insulation/assets/85532743/a87a0978-ca61-459a-a54e-e55c54a5bb12)
 
-ADRSINSの入力端子は、以下のようにRaspberry PiのGPIOに結線されています。  
-GPIOの出力レベルLでNC側、出力レベルHでNO側に導通します。  
+ADRSINSの入力端子は、以下のようにRaspberry PiのGPIOに対応しています。 
 
 |入力端子|GPIO番号|ピン番号|
 |:-:|:-:|:-:|

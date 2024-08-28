@@ -15,7 +15,7 @@
 
 #### [回路図](https://github.com/bit-trade-one/ADRSINS-RaspberryPi-insulation/blob/master/Schematics/ADRSINS_SchematicsV0.pdf)
 
-#### [基板図](https://github.com/bit-trade-one/ADRSINS-RaspberryPi-insulation/blob/master/Dimensions/ADRSINS_DimensionsV0.pdf)
+#### [基板図](https://github.com/bit-trade-one/ADRSINS-RaspberryPi-insulation/blob/master/Dimensions/ADRSINS_DimensionsV1.pdf)
 
 ---
 # ドキュメント目次
@@ -36,11 +36,20 @@ OUTの側が出力になるように線をユーロブロックに接続くだ�
 
 ![image](https://github.com/bit-trade-one/ADRSINS-RaspberryPi-insulation/assets/85532743/a87a0978-ca61-459a-a54e-e55c54a5bb12)
 
+ADRSINSの入力端子は、以下のようにRaspberry PiのGPIOに結線されています。  
+GPIOの出力レベルLでNC側、出力レベルHでNO側に導通します。  
+
+|入力端子|GPIO番号|ピン番号|
+|:-:|:-:|:-:|
+|J1|GPIO5|29|
+|J2|GPIO6|31|
+|J3|GPIO16|36|
+|J4|GPIO26|37| 
 
 ---
-
+<BR>
 # サンプルプログラムの実行方法
-ラズベリーパイのターミナルを起動し、下記スクリプトを入力してください。  
+ラズベリーパイのターミナルを起動し、下記スクリプトを実行してください。  
 
 ## ライブラリ関連のインストール
 
